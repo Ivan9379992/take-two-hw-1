@@ -1,0 +1,147 @@
+:root{
+    --main-color:#757575;
+    --titel-color:#212121;
+    --accen-color:#2196F3;
+
+    --white-bgc: #FFFFFF;
+    --dark-bgc: #2F303A;
+    --main-section-bgc: #E5E5E5;
+    --second-section-bgc: #F5F4FA;
+
+    --mein-font-famely-Roboto: "Roboto"; 
+    --mein-font-famely-Raleway: "Raleway";
+}
+
+/* Теги */
+body{
+    font-family: var( --mein-font-famely-Roboto), sans-serif ;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-color);
+    letter-spacing: 0.03em;
+}
+
+
+/* Утилиты */
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.list{
+    list-style: none;
+}
+
+/* маленькие компоненты */
+
+.logo{
+    font-family: var(--mein-font-famely-Raleway);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+}
+
+.logo-web{
+    color: var(--accen-color);
+}
+
+.logo-studio{
+    color: #000000;
+}
+
+.navigation{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.navigation :hover,
+.navigation:focus{
+    color: var(--accen-color);
+}
+
+.list-item{
+    color: var(--titel-color);
+    text-decoration: none;
+}
+
+.contact .list-item{
+ color: var(--main-color);
+}
+
+.hero{
+    background-color: var(--dark-bgc);
+}
+
+.title-hero{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.button-hero{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    display: block;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    background-color: var(--accen-color);
+}
+
+.list-title{
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--titel-color);
+}
+
+.title-section{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--titel-color);
+}
+
+.title-name{
+     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+   
+    text-align: center;
+    
+    color: var(--titel-color);
+}
+
+.team-position{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.18;
+
+    text-align: center;
+}
