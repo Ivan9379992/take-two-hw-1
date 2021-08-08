@@ -112,6 +112,7 @@ ul, li{
 /* header */
 
 header> .container{
+    border-bottom: 1px solid #ECECEC;
     display: flex;
     align-items: center;
 }
@@ -325,3 +326,77 @@ footer .container{
 .address-list :not(:last-child) {
     margin-bottom: 9px;
 }
+
+
+/* стили портфолио */
+
+.active-page{
+    color: var(--accen-color);
+}
+
+/* кнопки */
+.buttom-items{
+    display: flex;
+    justify-content: center;
+}
+    
+
+.buttom-items :not(:last-child){
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+
+.buttom-item{
+    color: var(--titel-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    background-color var(--second-section-bgc);
+
+    text-align: center;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.buttom-item:hover,
+.buttom-item:focus {
+    background-color: var(--accent-bgc);
+    color: #ffffff;
+}
+
+.work-examples{
+    --grid-item: 3;
+}
+
+.work-examples-card{
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.work-examples-title{
+    margin-right: 24px;
+    margin-left: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    letter-spacing: 0.06em;
+
+    color: var(--titel-color);
+}
+
+.work-examples-text{
+    margin-bottom: 20px;
+    margin-right: 24px;
+    margin-left:24px;
+    font-size: 16px;
+    line-height: 1.87;
+    color :var(--main-color);
+}
+
+/* main .container{
+    border: 1px solid #ECECEC;
+} */
+
+
