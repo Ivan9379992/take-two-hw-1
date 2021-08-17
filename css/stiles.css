@@ -83,6 +83,39 @@ ul, li{
     padding-bottom: 94px;
 }
 
+/* svg */
+
+/* хедер иконки */
+.contact-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-item-icon{
+    margin-right: 10px;
+    fill: currentColor;
+    
+    width: 16px;
+    height: 12px;
+}
+
+/* принцыпы работы иконки */
+.thumb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #F5F4FA;
+}
+
+.principle-icon{
+    
+    
+}
+
+
 /* сетка єлементов */
 .grid {
     display: flex;
@@ -138,13 +171,14 @@ header> .container{
     color: var(--accen-color);
 }
 
+
 .contact-items{
     display: flex;
     margin-left: auto;
 }
 
-.contact-items :not(:last-child){
-    margin-right: 50px;
+.contact-items li + li {
+    margin-left: 50px;
 }
 .contact-link{
     font-weight: 500;
@@ -154,7 +188,10 @@ header> .container{
 
     color: var(--main-color);
 }
-
+.phone{
+    width: 10px;
+    height: 16px;
+}
 .link, .contact-link {
     display: block;
     padding-top: 24px;
@@ -194,7 +231,17 @@ header> .container{
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    background: var(--dark-bgc);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    height: 600px;
+
+    background-image:
+    linear-gradient(
+    to rigHT,
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)),
+    url("../imeges/hero-bg.jpg");
 }
 
 .hero-title{
